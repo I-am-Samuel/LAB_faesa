@@ -1,0 +1,7 @@
+nome = input("Digite o nome do vendedor: ")
+salario_fixo = float(input("Digite o salário fixo do vendedor: "))
+total_vendas = float(input("Digite o total de vendas efetuadas pelo vendedor no mês: "))
+salario_final = salario_fixo + (total_vendas * 0.15)
+print(f"Nome do vendedor: {nome}")
+print(f"Salário fixo: R${salario_fixo:.2f}")
+print(f"Salário final no mês: R${salario_final:.2f}")
